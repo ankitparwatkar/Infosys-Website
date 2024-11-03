@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Infosys</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="company-name"><h1>Infosys</h1></div>
+        <ul class="nav-links">
+            <li><a href="">Navigate your next</a></li>
+            <li><a href="">Infosys Knowledge Institute</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Careers</a></li>
+            <li>
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <!-- <button class="close-btn"><i class="fas fa-times"></i></button> -->
+                </div>
+            </li>
+        </ul>
+        <div class="menu-toggle">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <!-- <i id="menu-bars" class="fas fa-bars"></i> -->
+                <i id="menu-cross" class="fas fa-times"></i>
+            </div>
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <nav class="mini">
+        <ul>
+            <li><a href="#navigate">Navigate</a></li>
+            <li><a href="#infosys">Knowledge</a></li>
+            <li><a href="#investors">Investors</a></li>
+            <li><a href="#careers">Careers</a></li> 
+        </ul>
+    </nav>
+
+
+    <!-- Slider Section -->
+    <div class="slider">
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+        <input type="radio" name="slides" id="slide4">
+    
+        <div class="slides">
+            <div class="slide" id="s1">
+                <img src="image1.jpg" alt="Description for Slide 1">
+                <div class="overlay">Technology empowers us to connect, innovate, and transform the world. It’s the bridge to future possibilities, making dreams achievable and life more efficient. 🚀</div>
+            </div>
+            <div class="slide" id="s2">
+                <img src="image2.jpg" alt="Description for Slide 2">
+                <div class="overlay">AI revolutionizes industries by automating tasks, enhancing decision-making, and driving innovation. Its limitless potential shapes the future, transforming how we live and work. 🌐🚀</div>
+            </div>
+            <div class="slide" id="s3">
+                <img src="image3.jpg" alt="Description for Slide 3">
+                <div class="overlay">Science unravels the universe's mysteries, driving progress and discovery. It's the quest for knowledge, fueling innovation and understanding of our world and beyond. 🧬🔬🚀</div>
+            </div>
+            <div class="slide" id="s4">
+                <img src="image4.jpg" alt="Description for Slide 4">
+                <div class="overlay">The future holds limitless possibilities, shaped by innovation and human potential. It's a canvas awaiting our collective creativity, promising growth, change, and discovery. 🚀🌟</div>
+            </div>
+        </div>
+    
+        <div class="radio-buttons">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+    </div>
+    
+
+    <!-- Image Section -->
+    <div class="image-section">
+        <div class="image-container">
+            <div class="image" style="background-image: url('image5.jpg');">Innovation</div>
+            <div class="image" style="background-image: url('image6.jpg');">Technology</div>
+            <div class="image" style="background-image: url('image7.jpg');">Trust</div>
+            <div class="image" style="background-image: url('image8.jpg');">Growth</div>
+            <div class="image" style="background-image: url('image9.jpg');">Transformation</div>
+            <div class="image" style="background-image: url('image10.jpg');">Future</div>
+            <div class="image" style="background-image: url('image11.jpg');">Artificial Intelligence</div>
+            <div class="image" style="background-image: url('image12.jpg');">Advance</div>
+            <div class="image" style="background-image: url('image13.jpg');">Culture</div>
+            <div class="image" style="background-image: url('image14.jpg');">Indian</div>
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact-section">
+        <div class="country-selection">
+            <div class="country">USA</div>
+            <div class="country">UK</div>
+            <div class="country">Canada</div>
+            <div class="country">Australia</div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-columns">
+            <div class="column"><h4>Company</h4><ul><li>Navigate your next</li><li>About Us</li><li>Careers</li><li>ESG</li><li>Investors</li><li>Newsroom</li><li>Alumni</li></ul></div>
+            <div class="column"><h4>Subsidiaries</h4><ul><li>EdgeVerve Systems</li><li>Infosys BPM</li><li>Infosys Consulting</li><li>Infosys Public Services</li></ul></div>
+            <div class="column"><h4>Programs</h4><ul><li>Infosys Foundation</li><li>Infosys Foundation USA</li><li>Infosys Science Foundation</li><li>Infosys Leadership Institute</li></ul></div>
+            <div class="column"><h4>Support</h4><ul><li>Terms of Use</li><li>Privacy Statement</li><li>Cookie Policy</li><li>Safe Harbour Provision</li><li>Site Map</li><li>Modern Slavery Statement</li><li>Payment Guide for Suppliers</li></ul></div>
+            <div class="column"><h4>Connect with us</h4><div class="social-icons"><br><i class="fab fa-facebook"></i><br><i class="fab fa-twitter"></i><br><i class="fab fa-instagram"></i></div></div>
+        </div>
+        <div class="sub-footer">
+            <p>&copy; 2024 Infosys ltd. All Rights Reserved.</p>
+            <select>
+                <option>Select Country/Region</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>UK</option>
+                <option>Australia</option>
+            </select>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top">
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    </div>
+ 
+    
+    <script src="script.js"></script>
+</body>
+</html>
